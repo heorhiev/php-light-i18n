@@ -1,0 +1,21 @@
+{
+    "name": "heorhiev/php-light-i18n",
+    "authors": [
+        {
+            "name": "Ruslan",
+            "email": ""
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3"
+    },
+    "require-dev": {
+        "ext-sqlite3": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "light\\i18n\\": "src"
+        }
+    }
+}
